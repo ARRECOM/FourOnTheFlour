@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FOUR ON THEe FLOOR - Bootstrap Admin Template</title>
+    <title>FOUR ON THE FLOOR - Bootstrap Admin Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">

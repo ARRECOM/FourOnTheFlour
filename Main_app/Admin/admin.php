@@ -178,7 +178,7 @@
                                 <a href="AltaAdmin.php">Administrador</a>
                             </li>
                             <li class="active">
-                                <a href="{{ url('admin/RegistrarEvento') }}">Evento Proximo</a>
+                                <a href="AgregarEvento.php">Evento Proximo</a>
                             </li>
 
                             <li class="active">

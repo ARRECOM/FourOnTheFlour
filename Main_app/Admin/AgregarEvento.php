@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <link href="../../css/sb-admin.css" rel="stylesheet">
 
+    <link href="../../css/barra.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="../../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -215,28 +217,7 @@
                         </ol>
                     </div>
                 </div>
-                <!-- /.row -->
-                <table class="table table-condensed">
 
-
-                        <!-- On cells (`td` or `th`) -->
-                        <thead>
-                          <tr>
-                            <td class="success">#</td>
-                            <td class="success">Nombre</td>
-                            <td class="success">NickName</td>
-                            <td class="success">password</td>
-
-                          </tr>
-                        </thead>
-
-                        <tbody>
-
-
-
-                        </tbody>
-
-                </table>
 
                 <div class="row">
                   <div class="panel panel-default">
@@ -246,39 +227,9 @@
                     <div class="panel-body">
                       <div class="col-lg-6">
 
-                          <form action="./logica/GuardarAdmin.php"  class="form-horizontal" role="form" method="POST">
-
-
-                            <div >
-                                <label for="name" class="fw">Nombre Completo</label>
-                            			<div >
-                            				  <input class="form-control" name="nombres" id="exampleInputEmail1" type="text" >
-                            			</div>
-
-                             </div>
-
-                              <div >
-                                  <label for="name" class="fw">NickName</label>
-  																<div >
-  																	  <input class="form-control" name="nick" id="exampleInputEmail1" >
-                              </div>
-
-
-                              <div >
-                                  <label for="name" class="fw">Contraseña</label>
-  																<div >
-  																	  <input class="form-control" id="exampleInputEmail1" name="pass" type="password" >
-  																</div>
-
-                              </div>
-
-  <br>
-  <br>
-                              <button type="submit" class="btn btn-primary" value="Guardar">Guardar</button>
-                              <button type="reset" class="btn btn-default">Limpiar campos</button>
-
-                          </form>
-
+                        <?php
+                      		require_once('Plantillas/NuevoEvento.php');
+                      	?>
                       </div>
                     </div>
                   </div>
@@ -309,6 +260,7 @@
 
     <!-- jQuery -->
     <script src="../../js/AdminJS/jquery.js"></script>
+    <script src="subirArchivo.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../../js/AdminJS/bootstrap.min.js"></script>

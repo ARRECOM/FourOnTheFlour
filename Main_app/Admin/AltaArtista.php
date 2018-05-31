@@ -155,7 +155,7 @@
                     <li class="active">
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Registrar<i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="">
-                            <li class="active">
+                            <li>
                                 <a href="AltaAdmin.php">Administrador</a>
                             </li>
                             <li class="active">
@@ -167,7 +167,7 @@
                             </li>
 
                             <li class="active">
-                               <a href="AltaArtista.php">Artistas</a>
+                               <a href="">Artistas</a>
                             </li>
 
 
@@ -201,7 +201,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Registro de Administrador
+                            Registro de Artista
                         </h1>
                         <ol class="breadcrumb">
                             <li>
@@ -217,12 +217,11 @@
                     </div>
                 </div>
                 <!-- /.row -->
-              
 
                 <div class="row">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Agregar Nuevos Administradores</h3>
+                      <h3 class="panel-title">Agregar Nuevos Artista</h3>
                     </div>
                     <div class="panel-body">
                       <div class="col-lg-6">
@@ -231,7 +230,7 @@
 
 
                             <div >
-                                <label for="name" class="fw">Nombre Completo</label>
+                                <label for="name" class="fw">Nombre DJ</label>
                             			<div >
                             				  <input class="form-control" id="exampleInputEmail1" type="text" >
                             			</div>
@@ -239,17 +238,19 @@
                              </div>
 
                               <div >
-                                  <label for="name" class="fw">NickName</label>
+                                  <label for="name" class="fw">Teléfono</label>
   																<div >
   																	  <input class="form-control" id="exampleInputEmail1" >
                               </div>
 
 
                               <div >
-                                  <label for="name" class="fw">Contraseña</label>
-  																<div >
-  																	  <input class="form-control" id="exampleInputEmail1" type="password" >
-  																</div>
+                                <label for="name" class="fw">Correo electrónico</label>
+                                        <div >
+                                              <input class="form-control" id="exampleInputEmail1" type="text" >
+                                        </div>
+
+                             </div>
 
                               </div>
 

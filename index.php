@@ -54,7 +54,7 @@
 
                 <li><a href="#">Artistas</a></li>
                 <li><a href="#">Eventos</a></li>
-                <li><a href="">Registrar</a></li>
+                <li><a href="Registrarview.php">Registrar</a></li>
                 <li><a href="login.php">Iniciar Sesión</a></li>
               </ul>
             </div>
@@ -71,23 +71,20 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-12 col-xs-12">
-
             <div class="owl-carousel owl-theme slide" id="featured">
-              <div class="item">
-
+                <!-- carga del evento principal -->
+                <div class="item">
                   <article class="featured">
                     <div class="overlay"></div>
                     <figure>
-                      <img class="img img-responsive" src="img/ff/16.jpeg" alt="Sample Article">
+                      <img src="img/ff/space.jpg" alt="Sample Article">
                     </figure>
-                    <div class="details">
-                      <div class="category">
-                     <div class="time"> <h1></h1> </div>
-                     <div class="time"></div>
-                      <button type="button" class="btn btn-info " data-toggle="modal" data-target="#myModal">Mas Informacón</button>
-                    </div>
+                    <!--<div class="details">
+                      <div class="category"><a href="category.html">Texto</a></div>
+                      <h1><a href="#">Texto</a></h1>
+                      <div class="time">Texto</div>
+                    </div>-->
                   </article>
-
 
               </div>
 
@@ -418,8 +415,8 @@
     <!-- JS -->
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.migrate.js"></script>
+    <script src="js/APP_JS/jquery.js"></script>
+    <script src="js/APP_JS/jquery.migrate.js"></script>
     <script src="scripts/bootstrap/bootstrap.min.js"></script>
     <script>var $target_end=$(".best-of-the-week");</script>
     <script src="scripts/jquery-number/jquery.number.min.js"></script>
@@ -429,6 +426,6 @@
     <script src="scripts/sweetalert/dist/sweetalert.min.js"></script>
     <script src="scripts/toast/jquery.toast.min.js"></script>
 
-    <script src="js/e-magz.js"></script>
+    <script src="js/APP_JS/e-magz.js"></script>
   </body>
 </html>

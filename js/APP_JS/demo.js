@@ -1,4 +1,4 @@
-document.getElementsByTagName("body")[0].innerHTML += '<div class="demo-settings"><div class=""></div></div>';
+document.getElementsByTagName("body")[0].innerHTML += '<div class="demo-settings"><div class="demo-settings-toggle"><i class="ion ion-gear-a"></i></div><div class="demo-settings-options"><ul><li class="demo-toggle-skin" style="background-color: #F73F52;" title="Default"></li><li class="demo-toggle-skin" style="background-color: #8e44ad;" title="Purple"></li><li class="demo-toggle-skin" style="background-color: #626EEF;" title="Blue"></li><li class="demo-toggle-skin" style="background-color: #FC624D;" title="Orange"></li></ul></div></div>';
 
 document.getElementsByClassName("demo-settings-toggle")[0].addEventListener("click", (e) => {
 	if(document.getElementsByClassName("demo-settings")[0].classList.contains("active")) {

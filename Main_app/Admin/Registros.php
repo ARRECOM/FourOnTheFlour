@@ -152,10 +152,10 @@
                     <li>
                         <a href="Admin.php"><i class="fa fa-fw fa-dashboard"></i> Inicio</a>
                     </li>
-                    <li class="active">
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Registrar<i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="demo" class="">
-                            <li class="active">
+                    <li class="">
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Registrar <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
                                 <a href="AltaAdmin.php">Administrador</a>
                             </li>
                             <li class="active">
@@ -173,8 +173,8 @@
 
                         </ul>
                     </li>
-                    <li>
-                        <a href="Registros.php"><i class="fa fa-fw fa-table"></i> Registros / Editar</a>
+                    <li class="active">
+                        <a href="registros.php"><i class="fa fa-fw fa-table"></i> Registros / Editar</a>
                     </li>
                     <li>
                         <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Solicitudes</a>
@@ -201,28 +201,26 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            Registro de Administrador
+                            Registros
                         </h1>
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i>  <a href="index.html">Dashboard</a>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Inicio</a>
                             </li>
                             <li class="active">
-                                <i class="fa fa-edit"></i> Registrar
+                                <i class="fa fa-edit"></i> Registros
                             </li>
-														<li class="active">
-																<i class="fa fa-edit"></i> Administrador
-														</li>
+														
                         </ol>
                     </div>
                 </div>
                 <!-- /.row -->
-
+                
 
                 <div class="row">
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3 class="panel-title">Agregar Nuevos Administradores</h3>
+                      <h3 class="panel-title">Administradores</h3>
                     </div>
                     <div class="panel-body">
                       <div class="col-lg-6">
@@ -230,33 +228,40 @@
                           <form class="form-horizontal" role="form" method="POST">
 
 
-                            <div >
-                                <label for="name" class="fw">Nombre Completo</label>
-                            			<div >
-                            				  <input class="form-control" id="exampleInputEmail1" type="text" >
-                            			</div>
-
-                             </div>
-
-                              <div >
-                                  <label for="name" class="fw">NickName</label>
-  																<div >
-  																	  <input class="form-control" id="exampleInputEmail1" >
-                              </div>
+                           <table class="table table-condensed">
 
 
-                              <div >
-                                  <label for="name" class="fw">Contraseña</label>
-  																<div >
-  																	  <input class="form-control" id="exampleInputEmail1" type="password" >
-  																</div>
+                        <!-- On cells (`td` or `th`) -->
+                        <thead>
+                          <tr>
+                            <td class="success">#</td>
+                            <td class="success">Nombre</td>
+                            <td class="success">NickName</td>
+                            <td class="success">password</td>
 
-                              </div>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            
+                          </tr>
+                        <tr>
+
+                        </tr>
+
+                        </tbody>
+
+                </table>
 
   <br>
   <br>
-                              <button type="submit" class="btn btn-primary">Guardar</button>
-                              <button type="reset" class="btn btn-default">Limpiar campos</button>
+                              <button type="submit" class="btn btn-primary">Editar</button>
+                              <button type="reset" class="btn btn-default">Borrar</button>
 
                           </form>
 
@@ -269,14 +274,267 @@
 
       <br>
       <br>
+      
+      
+                </div>
+
+<div class="row">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Visitantes</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-lg-6">
+
+                          <form class="form-horizontal" role="form" method="POST">
+
+
+                           <table class="table table-condensed">
+
+
+                        <!-- On cells (`td` or `th`) -->
+                        <thead>
+                          <tr>
+                            <td class="success">#</td>
+                            <td class="success">Nombre</td>
+                            <td class="success">NickName</td>
+                            <td class="success">password</td>
+
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            
+                          </tr>
+                        <tr>
+
+                        </tr>
+
+                        </tbody>
+
+                </table>
+
+  <br>
+  <br>
+                              <button type="submit" class="btn btn-primary">Editar</button>
+                              <button type="reset" class="btn btn-default">Borrar</button>
+
+                          </form>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
       <br>
       <br>
-      <br>
-      <br>
-      <br>
+      
+      
+                </div>
+
+<div class="row">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Eventos</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-lg-11">
+
+                          <form class="form-horizontal" role="form" method="POST">
+
+
+                           <table class="table table-condensed">
+
+
+                        <!-- On cells (`td` or `th`) -->
+                        <thead>
+                          <tr>
+                            <td class="success">#</td>
+                            <td class="success">Imagen</td>
+                            <td class="success">Hora inicio</td>
+                            <td class="success">Hora cierre</td>
+                            <td class="success">Fecha</td>
+                            <td class="success">Lugar</td>
+                            <td class="success">Teléfono del lugar</td>
+                            <td class="success">Nombre DJ</td>
+                            <td class="success">Biografía DJ</td>
+                            <td class="success">Precio preventa</td>
+                            <td class="success">Precio puerta</td>
+
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            
+                            
+                          </tr>
+                        <tr>
+
+                        </tr>
+
+                        </tbody>
+
+                </table>
+
+  <br>
+  <br>
+                              <button type="submit" class="btn btn-primary">Editar</button>
+                              <button type="reset" class="btn btn-default">Borrar</button>
+
+                          </form>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
       <br>
       <br>
                 </div>
+
+                 <div class="row">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Lista de Canciones</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-lg-6">
+
+                          <form class="form-horizontal" role="form" method="POST">
+
+
+                           <table class="table table-condensed">
+
+
+                        <!-- On cells (`td` or `th`) -->
+                        <thead>
+                          <tr>
+                            <td class="success">#</td>
+                            <td class="success">Nombre</td>
+                            <td class="success">URL</td>
+                            <td class="success">Duración</td>
+
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            
+                          </tr>
+                        <tr>
+
+                        </tr>
+
+                        </tbody>
+
+                </table>
+
+  <br>
+  <br>
+                              <button type="submit" class="btn btn-primary">Editar</button>
+                              <button type="reset" class="btn btn-default">Borrar</button>
+
+                          </form>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+      <br>
+      <br>
+      
+      
+                </div>
+
+                 <div class="row">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Artistas</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="col-lg-6">
+
+                          <form class="form-horizontal" role="form" method="POST">
+
+
+                           <table class="table table-condensed">
+
+
+                        <!-- On cells (`td` or `th`) -->
+                        <thead>
+                          <tr>
+                            <td class="success">#</td>
+                            <td class="success">Nombre DJ</td>
+                            <td class="success">Teléfono</td>
+                            <td class="success">Correo electrónico</td>
+
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            
+                          </tr>
+                        <tr>
+
+                        </tr>
+
+                        </tbody>
+
+                </table>
+
+  <br>
+  <br>
+                              <button type="submit" class="btn btn-primary">Editar</button>
+                              <button type="reset" class="btn btn-default">Borrar</button>
+
+                          </form>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+      <br>
+      <br>
+      
+      
+                </div>
+
                 <!-- /.row -->
 
             </div>

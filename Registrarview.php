@@ -1,46 +1,11 @@
-<?php
-	session_start();
-	if(isset($_SESSION['usuario'])){
-		if ($_SESSION['usuario']['tipo'] == "Admin") {
-			// code...
-			header('Location: Main_app/Admin/admin.php');
-		}else if ($_SESSION['usuario']['tipo'] == "Usuario") {
 
-				header('Location: Main_app/Usuario/usuario.php');
-		}
-	}
- ?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="description" content="Magz is a HTML5 & CSS3 magazine template is based on Bootstrap 3.">
-		<meta name="author" content="Kodinger">
-		<meta name="keyword" content="magz, html5, css3, template, magazine template">
-		<!-- Shareable -->
-		<meta property="og:title" content="HTML5 & CSS3 magazine template is based on Bootstrap 3" />
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
-		<meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
-		<title>Four On The Floor</title>
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="scripts/bootstrap/bootstrap.min.css">
-		<!-- IonIcons -->
-		<link rel="stylesheet" href="scripts/ionicons/css/ionicons.min.css">
-		<!-- Toast -->
-		<link rel="stylesheet" href="scripts/toast/jquery.toast.min.css">
-		<!-- OwlCarousel -->
-		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="scripts/owlcarousel/dist/assets/owl.theme.default.min.css">
-		<!-- Magnific Popup -->
-		<link rel="stylesheet" href="scripts/magnific-popup/dist/magnific-popup.css">
-		<link rel="stylesheet" href="scripts/sweetalert/dist/sweetalert.css">
-		<!-- Custom style -->
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/skins/all.css">
-		<link rel="stylesheet" href="css/demo.css">
+  <?php include ".idea/Raizcss.php"; ?>
+	<script src="js/validar_usuario.js">
+
+	</script>
 	</head>
 
 	<body class="skin-blue">
@@ -84,23 +49,19 @@
           <div class="box box-border">
             <div class="box-body">
               <h4>Formulario de Registro</h4>
-              <form role="form" method="POST" action="{{ url('register') }}">
-
+              <form   method="POST"  action="insert.php" onsubmit="return validar_usuario();">
 
                 <div class="form-group">
                   <label>Nombre Completos</label>
-                  <input id="name" type="text" class="form-control" name="Nombre"  required autofocus>
+                  <input id="Nombre" type="text" class="form-control" name="Nombre"  required autofocus>
 
                 </div>
-
-
 
                 <div class="form-group">
                   <label>Correo Electronico</label>
                   <input id="email" type="email" class="form-control" name="email"  required>
 
                 </div>
-
 
                 <div class="form-group">
                   <label>Nombre de Usuario</label>
@@ -114,43 +75,31 @@
 
                 </div>
 
-
                 <div class="form-group">
                   <label class="fw">Contraseña</label>
                   <input id="password" type="password" class="form-control" name="password" required>
-
                 </div>
 
+								<div class="form-group">
+									<label>Usario</label>
+									<input id="tipo" type="text" class="form-control" name="tipo" value="Usuario" required>
 
-                <div class="form-group">
-                  <label class="fw">Confirmar Contraseña</label>
-                  <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-                </div>
-
-                <div  style="visibility:hidden">
-                <input value="Sin Asignar" name="TipoUser">
-                </div>
-
+								</div>
 
                 <div class="form-group text-right">
-                  <button class="btn btn-primary btn-block">Registrar</button>
+                  <button class="btn btn-primary btn-block" id="btnguardar">Registrar</button>
                 </div>
-                <div class="form-group text-center">
-                  <span class="text-muted">Already have an account?</span> <a href="{{ url('/login')}}">Login</a>
-                </div>
+
               </form>
             </div>
           </div>
         </div>
       </div>
     </section>
+		<script type="text/javascript">
 
-
-
-
+		</script>
 <!-- logeo -->
-<script src="js/jquery-3.3.1.min.js"></script>
-
   <script src="js/main.js"></script>
 		<!-- JS -->
 

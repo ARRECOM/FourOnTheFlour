@@ -2,10 +2,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-  <?php include ".idea/Raizcss.php"; ?>
-	<script src="js/validar_usuario.js">
 
-	</script>
+
+        <?php include ".idea/Raizcss.php"; ?>
+
+
 	</head>
 
 	<body class="skin-blue">
@@ -49,40 +50,40 @@
           <div class="box box-border">
             <div class="box-body">
               <h4>Formulario de Registro</h4>
-              <form   method="POST"  action="insert.php" onsubmit="return validar_usuario();">
+              <form   method="POST"  action="insert.php" onsubmit="return validar();">
 
                 <div class="form-group">
                   <label>Nombre Completos</label>
-                  <input id="Nombre" type="text" class="form-control" name="Nombre"  required autofocus>
+                  <input id="Nombre" type="text" class="form-control" name="Nombre">
 
                 </div>
 
                 <div class="form-group">
                   <label>Correo Electronico</label>
-                  <input id="email" type="email" class="form-control" name="email"  required>
+                  <input id="email" type="email" class="form-control" name="email"  >
 
                 </div>
 
                 <div class="form-group">
                   <label>Nombre de Usuario</label>
-                  <input id="username" type="text" class="form-control" name="username"  required>
+                  <input id="username" type="text" class="form-control" name="username"  >
 
                 </div>
 
                 <div class="form-group">
                   <label>Edad</label>
-                  <input id="Edad" type="text" class="form-control" name="Edad"  required>
+                  <input id="Edad" type="text" class="form-control" name="Edad"  >
 
                 </div>
 
                 <div class="form-group">
                   <label class="fw">Contraseña</label>
-                  <input id="password" type="password" class="form-control" name="password" required>
+                  <input id="password" type="password" class="form-control" name="password" >
                 </div>
 
 								<div class="form-group">
 									<label>Usario</label>
-									<input id="tipo" type="text" class="form-control" name="tipo" value="Usuario" required>
+									<input id="tipo" type="text" class="form-control" name="tipo" value="Usuario" >
 
 								</div>
 
@@ -96,12 +97,10 @@
         </div>
       </div>
     </section>
-		<script type="text/javascript">
 
-		</script>
 <!-- logeo -->
   <script src="js/main.js"></script>
-		<!-- JS -->
+
 
 	</body>
 </html>

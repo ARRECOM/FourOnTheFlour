@@ -99,12 +99,7 @@
 
 <!-- logeo -->
 <script src="js/main.js"></script>
-<script>
-    (function () {
-        var 
-    }())
 
-</script>
 
 </body>
 </html>

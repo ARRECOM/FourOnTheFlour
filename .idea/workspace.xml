@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a2ded-fb7d-4950-b55d-8e10b7c2d035" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main_app/Admin/GuardarAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/BESTWEEK.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/CSS.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/HOME.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/JS.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/NAV.PHP" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Raizcss.php" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Raizcss.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/AltaAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/AltaAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/AltaArtista.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/AltaArtista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/Componentes/insertjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/Componentes/insertjs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/Componentes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/Componentes/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/Registros.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/Registros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/logica/GuardarAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/lib/CSS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/sesionSecurity.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/sesionSecurity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/subir.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/subir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/subirArchivo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/subirArchivo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/conexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/conexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Query/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/Query/insert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registrarview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registrarview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homedata.php" beforeDir="false" afterPath="$PROJECT_DIR$/homedata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/APP_JS/e-magz.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/APP_JS/e-magz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/APP_JS/jLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/APP_JS/jLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/APP_JS/sistemalaravel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/APP_JS/sistemalaravel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/AdminJS/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/AdminJS/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/AdminJS/plugins/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/AdminJS/plugins/flot/jquery.flot.pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Seguridad.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Seguridad.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/chart.js/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/chart.js/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/chart.js/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/chart.js/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/chart.js/docs/gitbook/gitbook-plugin-chartjs/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/chart.js/docs/gitbook/gitbook-plugin-search-plus/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/chart.js/docs/gitbook/gitbook-plugin-search-plus/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/chartjs-old/Chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/chartjs-old/Chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/datatables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/datatables/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/knob/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/knob/jquery.knob.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sparkline/jquery.sparkline.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sparkline/jquery.sparkline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validar.js" beforeDir="false" afterPath="$PROJECT_DIR$/validar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,24 +27,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="fof: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="fof: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="usuarios: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -106,8 +38,8 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+            <state relative-caret-position="1820">
+              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -115,8 +47,8 @@
       <file leaf-file-name="Registrarview.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Registrarview.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+            <state relative-caret-position="244">
+              <caret line="96" column="10" lean-forward="true" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -295,26 +227,27 @@
       <workItem from="1528672861591" duration="651000" />
       <workItem from="1528747391493" duration="9051000" />
       <workItem from="1528806784284" duration="8543000" />
+      <workItem from="1528841887807" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41084000" />
+    <option name="totallyTimeSpent" value="41096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.13519637" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3285151" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18051359" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.1336858" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18051359" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.17598188" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" sideWeight="0.50165015" side_tool="true" weight="0.17598188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        <state relative-caret-position="1820">
+          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -634,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Registrarview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="244">
+          <caret line="96" column="10" lean-forward="true" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -82,7 +82,7 @@ function Loader(divid, options)
 			this.toLoadImages[i].unbind("load");
 		this.toLoadImages = 0;	
 		this.started = false;
-	}
+	};
 	
 	
 	this.Start = function()
@@ -180,7 +180,7 @@ function Loader(divid, options)
 		 });
 		
 		
-		this.toLoadImages = new Array();
+		this.toLoadImages = [];
 		for (var i = 0; i < this.images.length; i++) {
 			var imgLoad = $("<img></img>");
 			$(imgLoad).attr("src", this.images[i]);
@@ -231,7 +231,7 @@ function Loader(divid, options)
 			if(scope.loadAmt)
 				$(scope.loadAmt).html(Math.floor(perc)+"%");
 		}
-	}
+	};
 	this.imgLoaded = function(scope)
 	{
 		scope.imagesLoaded++;
@@ -253,12 +253,12 @@ function Loader(divid, options)
 		this.toLoadImages = 0;
 		
 		
-	}
+	};
 	
 	//get all images
 	this.getImages = function()
 	{
-		var imgs = new Array();
+		var imgs = [];
 		
 		//add own back image!
 		var url = "";

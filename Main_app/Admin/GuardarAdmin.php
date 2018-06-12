@@ -1,5 +1,6 @@
 <?php
-include 'cn.php';
+
+$conexion = mysqli_connect("localhost", "root", "", "fof");
 
 $Nombre = $_POST["Nombre"];
 $email = $_POST["email"];

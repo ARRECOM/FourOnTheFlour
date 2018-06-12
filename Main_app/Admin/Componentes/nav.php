@@ -91,7 +91,8 @@
         </ul>
     </li>
     <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo $_SESSION['usuario']['nombres'] ?> <b class="caret"></b></a>
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
+                    class="fa fa-user"></i> <?php echo $_SESSION['usuario']['nombres'] ?> <b class="caret"></b></a>
         <ul class="dropdown-menu">
             <li>
                 <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -120,41 +121,42 @@
             <a href="admin.php"><i class="fa fa-fw fa-dashboard"></i> Inicio</a>
         </li>
         <li>
-            <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Registrar <i class="fa fa-fw fa-caret-down"></i></a>
+            <a href="" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-edit"></i> Registrar <i
+                        class="fa fa-fw fa-caret-down"></i></a>
             <ul id="demo" class="collapse">
                 <li>
-                    <a href="AltaAdmin.php">Administrador</a>
+                    <a href="AltaAdmin">Administrador</a>
                 </li>
                 <li class="active">
-                    <a href="{{ url('admin/RegistrarEvento') }}">Evento Proximo</a>
-                </li>
-
-                <li class="active">
-                    <a href="{{ url('admin/RegistrarCanciones') }}">Lista de Canciones</a>
+                    <a href="">Evento Proximo</a>
                 </li>
 
                 <li class="active">
-                   <a href="AltaArtista.php">Artistas</a>
+                    <a href="">Lista de Canciones</a>
+                </li>
+
+                <li class="active">
+                    <a href="">Artistas</a>
                 </li>
 
 
             </ul>
         </li>
         <li>
-            <a href="Registros.php"><i class="fa fa-fw fa-table"></i> Registros / Editar</a>
+            <a href="Registros"><i class="fa fa-fw fa-table"></i> Registros / Editar</a>
         </li>
 
         <li>
-            <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Solicitudes</a>
+            <a href=""><i class="fa fa-fw fa-desktop"></i> Solicitudes</a>
         </li>
         <li>
-            <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
+            <a href=""><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
         </li>
         <li>
-            <a href="blank-page.html"><i class="fa fa-fw fa-file"></i> Blank Page</a>
+            <a href=""><i class="fa fa-fw fa-file"></i> Blank Page</a>
         </li>
         <li>
-            <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
+            <a href=""><i class="fa fa-fw fa-dashboard"></i> RTL Dashboard</a>
         </li>
     </ul>
 </div>

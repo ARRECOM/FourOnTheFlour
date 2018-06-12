@@ -77,7 +77,7 @@ $.get(url,function(resul){
                 });
 irarriba();
 
-})
+});
 
 
 $(document).on("click",".pagination li a",function(e){
@@ -89,7 +89,7 @@ $(document).on("click",".pagination li a",function(e){
     $("#contenido_principal").html(resul);
  })
 
-})
+});
 
 
   //leccion 7
@@ -103,7 +103,7 @@ function mostrarficha(id_usuario,tipo) {
   $("#contenido_capa_edicion").html($("#cargador_empresa").html());  //leccion 10
   $.get(url,function(resul){
   $("#contenido_capa_edicion").html(resul);  //leccion 10
-  })
+  });
 irarriba();
 }
 
@@ -114,7 +114,7 @@ $(document).on("click",".div_modal",function(e){
  $("#capa_para_edicion").hide();
  $("#contenido_capa_edicion").html("");  //leccion 10
 
-})
+});
 
 
   //leccion 8 y 9
@@ -324,4 +324,4 @@ $(document).on("change",".email_archivo",function(e){
 
 
 
-})
+});

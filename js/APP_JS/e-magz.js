@@ -8,7 +8,7 @@ $(function(){
 		hide: function() {
 			$(".main-loading").remove();
 		}
-	}
+	};
 
 	var backdrop = {
 		show: function(el) {
@@ -29,7 +29,7 @@ $(function(){
 				return false;
 			});
 		}
-	}
+	};
 
 	var sectionFirstPadding = function() {
 		if($("header.primary").length) {
@@ -45,7 +45,7 @@ $(function(){
 				})
 			}
 		});
-	}
+	};
 
 	var stickyHeader = function() {	
 		var didScroll;
@@ -78,7 +78,7 @@ $(function(){
 				});
 			}
 		}
-	}
+	};
 
 	// love
 	var love = function() {	
@@ -112,7 +112,7 @@ $(function(){
 				return false;
 			});
 		});
-	}
+	};
 
 
 	// newsletter
@@ -162,7 +162,7 @@ $(function(){
 						loader: false
 					});
 				}
-			}
+			};
 
 			if($this.find(".email").val().trim().length < 1) {
 				$this.find(".email").focus();
@@ -197,7 +197,7 @@ $(function(){
 
 			return false;
 		});		
-	}
+	};
 
 	var featuredImage = function() {	
 	  $("#featured figure img").each(function(){
@@ -209,7 +209,7 @@ $(function(){
 	  	});
 	  	$(this).remove();
 	  });
-	}
+	};
 
 	var headline = function() {
 	  var headlineCarousel = $("#headline").owlCarousel({
@@ -227,7 +227,7 @@ $(function(){
 		$("#headline-nav [data-slide=prev]").click(function(){
 			headlineCarousel.trigger('prev.owl.carousel');
 		});		
-	}
+	};
 
   // floating label
   var floatingLabel = function() {
@@ -240,7 +240,7 @@ $(function(){
 	  		}
 	  	});
 	  });  	
-  }
+  };
 
   // browser
 	if($.browser.safari) {
@@ -282,7 +282,7 @@ $(function(){
 		$("#best-of-the-week-nav .prev").click(function(){
 			botwCarousel.trigger('prev.owl.carousel');
 		});
-	}
+	};
 
 	var youtubeAPI = function() {
 		$("[data-youtube]").each(function(vl_i){
@@ -364,7 +364,7 @@ $(function(){
 				});
 			}
 		});		
-	}
+	};
 
 	function convert_time(duration) {
     var a = duration.match(/\d+/g);
@@ -421,7 +421,7 @@ $(function(){
 			$item.wrapAll($("<div/>", {
 				style: 'height:'+$item_height+'px;',
 				id: 'vs_inner_'+ii
-			}))
+			}));
 
 			function vs_next() {
 				var $current = $this.attr("data-current"),
@@ -468,7 +468,7 @@ $(function(){
 				vs_next();
 			},10000);
 		});		
-	}
+	};
 
 	var featured = function() {
 		$("#featured").owlCarousel({
@@ -477,7 +477,7 @@ $(function(){
 			// autoplay: true,
 			loop: true
 		});		
-	}
+	};
 
 	var magnificGallery = function() {
 		$('[data-magnific="gallery"]').each(function(){
@@ -492,12 +492,12 @@ $(function(){
 				preloader: true,
 	  		})
 		});		
-	}
+	};
 
 	// ease scroll
 	var easeScrollFunc = function() {
 		$("html").easeScroll();
-	}
+	};
 
 	var toggleMobile = function() {
 		$(document).on("click", "[data-toggle=menu]", function() {
@@ -588,7 +588,7 @@ $(function(){
 			},50);
 			return false;
 		});
-	}
+	};
 
 	var showPassword = function() {
 		$("input[type='password']").each(function(i) {
@@ -628,7 +628,7 @@ $(function(){
 				}
 			});
 		});
-	}
+	};
 
 	var sendContactForm = function() {
 		$("#contact-form").submit(function() {
@@ -655,7 +655,7 @@ $(function(){
 			});
 			return false;
 		});
-	}
+	};
 
 	var loadFile = function() {
 		$("[data-load]").each(function() {
@@ -674,7 +674,7 @@ $(function(){
 				}
 			})
 		});
-	}
+	};
 
 	// Run Function
 	sectionFirstPadding();

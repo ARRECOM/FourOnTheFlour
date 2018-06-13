@@ -35,9 +35,12 @@ if (!$resultado) {
     echo 'Error al registrar';
 
 } else {
-    echo '<script>
-        alert("Registro Exitosom");
-        window.history.go(-1);
-      </script>';
+    echo
+    '<script>
+            alert("Registro Exitoso");
+         location.href="main_app/Usuario/usuario.php";
+          </script>';
+
+
 }
 mysqli_close($conexion);

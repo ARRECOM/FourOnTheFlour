@@ -1,15 +1,4 @@
-<?php
-  session_start();
-  if (isset($_SESSION['usuario'])) {
 
-    if ($_SESSION['usuario']['tipo'] != "Usuario") {
-      header('Location: ../Admin/admin.php');
-    }
-
-  }else {
-    header('Location: ../../login.php');
-  }
- ?>
 
 
  <!DOCTYPE html>

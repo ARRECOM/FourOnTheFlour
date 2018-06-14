@@ -11,3 +11,11 @@ function LisAdminitrador(){
     $sql = 'SELECT * FROM usuarios where tipo= "Admin"';
     return $mysqli->query($sql);
 }
+
+
+function ListaVisitante(){
+    global $mysqli, $consultaVisitante;
+    $slqV = 'SELECT * FROM usuarios where tipo = "Usuario"';
+    return $mysqli->query($slqV);
+
+}

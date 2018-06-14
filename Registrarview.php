@@ -43,13 +43,13 @@
     <!-- Start nav -->
 
 </header>
-<section class="login first grey">
+<section class="">
     <div class="container">
         <div class="box-wrapper">
-            <div class="box box-border">
+            <div class=" box-border">
                 <div class="box-body">
                     <h4>Formulario de Registro</h4>
-                    <form method="POST" action="insert.php" >
+                    <form method="POST"  onsubmit="return validar();" >
 
                         <div class="form-group">
                             <label>Nombre Completos</label>
@@ -99,6 +99,7 @@
 
 <!-- logeo -->
 <script src="js/main.js"></script>
+
 
 
 </body>

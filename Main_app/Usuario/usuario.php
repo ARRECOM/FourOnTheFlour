@@ -53,7 +53,7 @@
                         <li><a href="#">Artistas</a></li>
                         <li><a href="#">Eventos</a></li>
                         <li><a href="">Mi Dashboard</a></li>
-                        <li><a href="">Cerrar Session</a></li>
+                        <li><a href="../Salir.php">Cerrar Session</a></li>
                     </ul>
                 </div>
             </div>

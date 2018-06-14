@@ -1,6 +1,8 @@
 <?php
 include_once('lib/Consultas.php');
 $consulta = LisAdminitrador();
+$consultaV = ListaVisitante();
+
 ?>
 
 <!DOCTYPE html>
@@ -243,25 +245,31 @@ $consulta = LisAdminitrador();
                                     <!-- On cells (`td` or `th`) -->
                                     <thead>
                                     <tr>
-                                        <td class="success">#</td>
                                         <td class="success">Nombre</td>
-                                        <td class="success">NickName</td>
-                                        <td class="success">password</td>
+                                        <td class="success">Email</td>
+                                        <td class="success">Nombre de usuario</td>
+                                        <td class="success">Edad</td>
+                                        <td class="success">Tipo de usuario</td>
 
                                     </tr>
                                     </thead>
 
                                     <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>2</td>
-                                        <td>3</td>
-                                        <td>4</td>
+                                    <?php
+                                    while ($personaVisitante = $consultaV->fetch_assoc())
+                                    {
+                                        ?>
+                                        <tr>
+                                            <td><?php echo $personaVisitante['nombres']; ?></td>
+                                            <td><?php echo $personaVisitante['email']; ?></td>
+                                            <td><?php echo $personaVisitante['usuario']; ?></td>
+                                            <td><?php echo $personaVisitante['Edad']; ?></td>
+                                            <td><?php echo $personaVisitante['tipo']; ?></td>
 
-                                    </tr>
-                                    <tr>
-
-                                    </tr>
+                                        </tr>
+                                        <?php
+                                    }
+                                    ?>
 
                                     </tbody>
 

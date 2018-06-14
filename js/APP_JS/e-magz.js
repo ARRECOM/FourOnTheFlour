@@ -72,7 +72,7 @@ $(function(){
 					top: -toTop
 				});
 			}
-			if(scrollTop < 300) {
+			if(scrollTop < 0) {
 				$("header.primary").removeClass("up").css({
 					top: 0
 				});

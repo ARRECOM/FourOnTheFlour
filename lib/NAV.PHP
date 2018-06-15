@@ -18,6 +18,7 @@
                 <li><a href="#">Artistas</a></li>
                 <li><a href="Registrarview">Registrar</a></li>
                 <li><a href="login">Iniciar Sesión</a></li>
+
             </ul>
         </div>
     </div>

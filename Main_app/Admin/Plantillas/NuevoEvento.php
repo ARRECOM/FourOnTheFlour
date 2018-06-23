@@ -4,7 +4,7 @@
         <label>Hora de inicio</label>
 
         <div >
-            <input class="form-control" type="time"  id="example-time-input" name="HoraInicio" value="{{ old('HoraInicio') }}" required autofocus>
+            <input class="form-control" type="time"  id="example-time-input" name="HoraInicio"  required autofocus>
         </div>
     </div>
 

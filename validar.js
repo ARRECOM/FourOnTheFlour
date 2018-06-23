@@ -1,10 +1,22 @@
 function validar(){
 
-    var nombre, email, username, edad, password;
+    var nombre;
+    var correo;
+    var usuario;
+    var edad;
+    var contraseña
 
-    nombre = document.getElementById("Nombre").value();
+    nombre = document.getElementById("Nombre").value;
+    correo = document.getElementById("email").value;
+    usuario = document.getElementById("username").value;
+    edad = document.getElementById("Edad").value;
+    edad = document.getElementById("password").value;
 
-        alert(Nombre);
+    if(nombre === "" || correo === "" || usuario=== "" || edad === "" || contraseña === ""){
+       alert("Lo sentimos no podemos completar la operacion, revise" +
+           "que los campos no esten vacios");
+       return false;
+    };
 
 
 }

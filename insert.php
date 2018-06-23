@@ -6,7 +6,7 @@ $email = $_POST["email"];
 $username = $_POST["username"];
 $Edad = $_POST["Edad"];
 $password = $_POST["password"];
-$tipo = $_POST["tipo"];
+$tipo = "Usuario";
 
 $insertar = "INSERT INTO usuarios(nombres,email,usuario,Edad,password,tipo)
               VALUES ('$Nombre','$email','$username','$Edad','$password','$tipo')";

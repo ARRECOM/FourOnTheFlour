@@ -1,17 +1,36 @@
+
+<?php
+session_start();
+if (isset($_SESSION['usuario'])) {
+
+    if ($_SESSION['usuario']['tipo'] != "Usuario") {
+        header('Location: ../Usuario/usuario.php');
+    }
+
+}else {
+    header('Location: ../../login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-    <title>FourOnTheFlour</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Magz is a HTML5 & CSS3 magazine template is based on Bootstrap 3.">
+    <meta name="author" content="Kodinger">
+    <meta name="keyword" content="magz, html5, css3, template, magazine template">
+    <!-- Shareable -->
+    <meta property="og:title" content="HTML5 & CSS3 magazine template is based on Bootstrap 3" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://github.com/nauvalazhar/Magz" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/nauvalazhar/Magz/master/images/preview.png" />
+    <title>Four On The Floor</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../../scripts/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <!-- IonIcons -->
     <link rel="stylesheet" href="../../scripts/ionicons/css/ionicons.min.css">
     <!-- Toast -->
@@ -26,16 +45,25 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/skins/all.css">
     <link rel="stylesheet" href="../../css/demo.css">
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+
+
+
+
+
+
 </head>
+
 <body class="skin-blue">
 
-<header class="primary up"  style="top: 0px;">
-
-    <!-- Start nav -->
+<div class="error">
+    <span>Datos de ingreso no válidos, inténtelo de nuevo  por favor</span>
+</div>
+<header class="primary up" style="top: 0px;">
     <nav class="menu">
         <div class="container">
             <div class="brand">
-                <a href="">
+                <a href="index">
                     <img src="../../img/ff/fof.png" alt="Magz Logo">
                 </a>
             </div>
@@ -47,379 +75,103 @@
             </div>
             <div id="menu-list">
 
-                <div class="col-md-8 col-sm-12 text-left">
-                    <ul class="nav-icons">
 
-                        <li><a href="#">Artistas</a></li>
-                        <li><a href="#">Eventos</a></li>
-                        <li><a href="">Mi Dashboard</a></li>
-                        <li><a href="../Salir.php">Cerrar Session</a></li>
-                    </ul>
-                </div>
+                <ul class="nav-list">
+                    <li><a href="index">Home</a></li>
+
+                    <li><a href="../salir.php">Cerrar sesión</a></li>
+
+                </ul>
+
             </div>
     </nav>
 
-</header>
+    <!-- CONTENIDO DE USER -->
+    <section class="box-center">
+        <div class="container">
 
-<section class="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12">
-                <div class="owl-carousel owl-theme slide" id="featured">
-                    <!-- carga del evento principal -->
-                    <div class="item">
-                        <article class="featured">
-                            <div class="overlay"></div>
-                            <figure>
-                                <img src="../../img/ff/space.jpg" alt="Sample Article">
-                            </figure>
-                            <!--<div class="details">
-                              <div class="category"><a href="category.html">Texto</a></div>
-                              <h1><a href="#">Texto</a></h1>
-                              <div class="time">Texto</div>
-                            </div>-->
-                        </article>
+            <div class="container-fluid">
 
-                    </div>
-
-                </div>
-
-
-                <div class="line">
-                    <div>Eventos Proximos</div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <article class="article col-md-12">
-                                <div class="inner">
-                                    <figure>
-                                        <a href="single.html">
-                                            <img src="../../img/ff/16.jpeg" alt="Sample Article">
-                                        </a>
-                                    </figure>
-                                    <div class="padding">
-                                        <div class="detail">
-                                            <div class="time">December 10, 2016</div>
-                                            <div class="category"><a href="category.html">Healthy</a></div>
-                                        </div>
-                                        <h2><a href="single.html">Duis aute irure dolor in reprehenderit in voluptate</a></h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                        <footer>
-                                            <a href="#" class="love"><i class="ion-android-favorite-outline"></i> <div>1263</div></a>
-                                            <a class="btn btn-primary more" href="single.html">
-                                                <div>More</div>
-                                                <div><i class="ion-ios-arrow-thin-right"></i></div>
-                                            </a>
-                                        </footer>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="article col-md-12">
-                                <div class="inner">
-                                    <figure>
-                                        <a href="single.html">
-                                            <img src="../../img/ff/17.jpeg" alt="Sample Article">
-                                        </a>
-                                    </figure>
-                                    <div class="padding">
-                                        <div class="detail">
-                                            <div class="time">December 22, 2016</div>
-                                            <div class="category"><a href="category.html">Healthy</a></div>
-                                        </div>
-                                        <h2><a href="single.html">Exercitation ullamco laboris nisi ut aliquip</a></h2>
-                                        <p>Maecenas accumsan tortor ut velit pharetra mollis. Proin eu nisl et arcu iaculis placerat sollicitudin ut est. In fringilla dui dui.</p>
-                                        <footer>
-                                            <a href="#" class="love"><i class="ion-android-favorite-outline"></i> <div>327</div></a>
-                                            <a class="btn btn-primary more" href="single.html">
-                                                <div>More</div>
-                                                <div><i class="ion-ios-arrow-thin-right"></i></div>
-                                            </a>
-                                        </footer>
-                                    </div>
-                                </div>
-                            </article>
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Editar mi perfil</h4>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="row">
-                            <article class="article col-md-12">
-                                <div class="inner">
-                                    <figure>
-                                        <a href="single.html">
-                                            <img src="../../img/ff/18.jpeg" alt="Sample Article">
-                                        </a>
-                                    </figure>
-                                    <div class="padding">
-                                        <div class="detail">
-                                            <div class="time">December 09, 2016</div>
-                                            <div class="category"><a href="category.html">Lifestyle</a></div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-5 pr-1">
+                                        <div class="form-group">
+                                            <label>Sexo</label>
+                                            <select type="text" class="form-control"  id="inlineFormCustomSelect"">
+                                            <option selected>Hombre</option>
+                                            <option value="1">Mujer</option>
+
+                                            </select>
                                         </div>
-                                        <h2><a href="single.html">Mauris elementum libero at pharetra auctor</a></h2>
-                                        <p>Vivamus in efficitur mi. Nullam semper justo ut elit lacinia lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
-                                        <footer>
-                                            <a href="#" class="love"><i class="ion-android-favorite-outline"></i> <div>1083</div></a>
-                                            <a class="btn btn-primary more" href="single.html">
-                                                <div>More</div>
-                                                <div><i class="ion-ios-arrow-thin-right"></i></div>
-                                            </a>
-                                        </footer>
+                                    </div>
+                                    <div class="col-md-3 px-1">
+                                        <div class="form-group">
+                                            <label>Nombre de usuario</label>
+                                            <input type="text" class="form-control" placeholder="Usuario" value="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 pl-1">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Correo electrónico</label>
+                                            <input type="email" class="form-control" placeholder="Correo">
+                                        </div>
                                     </div>
                                 </div>
-                            </article>
-                            <article class="article col-md-12">
-                                <div class="inner">
-                                    <figure>
-                                        <a href="single.html">
-                                            <img src="../../img/ff/19.jpeg" alt="Sample Article">
-                                        </a>
-                                    </figure>
-                                    <div class="padding">
-                                        <div class="detail">
-                                            <div class="time">December 21, 2016</div>
-                                            <div class="category"><a href="category.html">Sport</a></div>
+                                <div class="row">
+                                    <div class="col-md-6 pr-1">
+                                        <div class="form-group">
+                                            <label>Nombre completo</label>
+                                            <input type="text" class="form-control" placeholder="Nombres y apellidos" value="">
                                         </div>
-                                        <h2><a href="single.html">Sed do eiusmod tempor incididunt ut labore</a></h2>
-                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris elementum libero at pharetra auctor.</p>
-                                        <footer>
-                                            <a href="#" class="love"><i class="ion-android-favorite-outline"></i> <div>980</div></a>
-                                            <a class="btn btn-primary more" href="single.html">
-                                                <div>More</div>
-                                                <div><i class="ion-ios-arrow-thin-right"></i></div>
-                                            </a>
-                                        </footer>
+                                    </div>
+                                    <div class="col-md-6 pl-1">
+                                        <div class="form-group">
+                                            <label>Nueva contraseña</label>
+                                            <input id="password" type="" class="form-control" name="password">
+                                        </div>
                                     </div>
                                 </div>
-                            </article>
+
                         </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-            </div>
-
-
-            <div class="col-xs-6 col-md-4 sidebar" id="sidebar">
-                <div class="sidebar-title for-tablet">Sidebar</div>
-                <aside>
-                    <div class="aside-body">
-                        <div class="featured-author">
-                            <div class="featured-author-inner">
-                                <div class="featured-author-cover" style="background-image: url('img/FOF-Negocio.jpg');">
-                                    <div class="badges">
-
-                                    </div>
-
+                        <div class="row">
+                            <div class="col-md-4 pr-1">
+                                <div class="form-group">
+                                    <label>Ciudad</label>
+                                    <input type="text" class="form-control" placeholder="Ciudad" value="">
                                 </div>
-
-                                <div class="block">
-
+                            </div>
+                            <div class="col-md-4 px-1">
+                                <div class="form-group">
+                                    <label>País</label>
+                                    <input type="text" class="form-control" placeholder="País" value="">
                                 </div>
+                            </div>
 
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Géneros de música de mi interes</label>
+                                    <textarea rows="4" cols="140" class="form-control" placeholder="Escribe los géneros de música que más te gusten." value=""></textarea>
+                                </div>
                             </div>
                         </div>
-                </aside>
-
-
-                <aside>
-                    <h1 class="aside-title">Top 10</h1>
-                    <div class="aside-body">
-                        <article class="article-mini">
-                            <iframe width="400" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/357129791&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                        </article>
-
-
-
-                        <article class="article-mini">
-                            <iframe width="400" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/96396519&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                        </article>
-
-
-                        <article class="article-mini">
-                            <iframe width="400" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/387674225&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                        </article>
-
-
-                        <article class="article-mini">
-                            <iframe width="400" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/309884764&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                        </article>
-
-
-                        <article class="article-mini">
-                            <iframe width="400" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/392357130&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                        </article>
-
-
-
-                        <article class="article-mini">
-                            <iframe width="400" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/476793111&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                        </article>
+                        <button type="submit" class="btn btn-info btn-fill pull-right">Editar</button>
+                        <div class="clearfix"></div>
+                        </form>
                     </div>
-                </aside>
-
-
-                <aside>
-
-                </aside>
-
-
-                <aside id="sponsored">
-
-
-                </aside>
-
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="best-of-the-week">
-    <div class="container">
-
-
-        <h1><div class="text">Otro Sellos de Campeche</div>
-            <div class="carousel-nav" id="best-of-the-week-nav">
-                <div class="prev">
-                    <i class="ion-ios-arrow-left"></i>
-                </div>
-                <div class="next">
-                    <i class="ion-ios-arrow-right"></i>
                 </div>
             </div>
-        </h1>
 
-
-        <div class="owl-carousel owl-theme carousel-1">
-            <article class="article">
-                <div class="inner">
-                    <figure>
-                        <a href="single.html">
-                            <img src="../../img/ff/16.jpeg" alt="Sample Article">
-                        </a>
-                    </figure>
-                    <div class="padding">
-                        <div class="detail">
-                            <div class="time">December 11, 2016</div>
-                            <div class="category"><a href="category.html">Travel</a></div>
-                        </div>
-                        <h2><a href="single.html">tempor interdum Praesent tincidunt</a></h2>
-                        <p>Praesent tincidunt, leo vitae congue molestie.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="inner">
-                    <figure>
-                        <a href="single.html">
-                            <img src="../../img/ff/17.jpeg" alt="Sample Article">
-
-                        </a>
-                    </figure>
-                    <div class="padding">
-                        <div class="detail">
-                            <div class="time">December 09, 2016</div>
-                            <div class="category"><a href="category.html">Sport</a></div>
-                        </div>
-                        <h2><a href="single.html">Maecenas porttitor sit amet turpis a semper</a></h2>
-                        <p> Proin vulputate, urna id porttitor luctus, dui augue facilisis lacus.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="inner">
-                    <figure>
-                        <a href="single.html">
-                            <img src="../../img/ff/18.jpeg" alt="Sample Article">
-                        </a>
-                    </figure>
-                    <div class="padding">
-                        <div class="detail">
-                            <div class="time">December 26, 2016</div>
-                            <div class="category"><a href="category.html">Lifestyle</a></div>
-                        </div>
-                        <h2><a href="single.html">Fusce ac odio eu ex volutpat pellentesque</a></h2>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus</p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="inner">
-                    <figure>
-                        <a href="single.html">
-                            <img src="../../img/ff/19.jpeg" alt="Sample Article">
-                        </a>
-                    </figure>
-                    <div class="padding">
-                        <div class="detail">
-                            <div class="time">December 26, 2016</div>
-                            <div class="category"><a href="category.html">Travel</a></div>
-                        </div>
-                        <h2><a href="single.html">Nulla facilisis odio quis gravida vestibulum</a></h2>
-                        <p>Proin venenatis pellentesque arcu, ut mattis nulla placerat et.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="inner">
-                    <figure>
-                        <a href="single.html">
-                            <img src="../../img/ff/20.jpeg" alt="Sample Article">
-                        </a>
-                    </figure>
-                    <div class="padding">
-                        <div class="detail">
-                            <div class="time">December 26, 2016</div>
-                            <div class="category"><a href="category.html">Travel</a></div>
-                        </div>
-                        <h2><a href="single.html">Fusce Ullamcorper Elit At Felis Cursus Suscipit</a></h2>
-                        <p>Proin venenatis pellentesque arcu, ut mattis nulla placerat et.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="inner">
-                    <figure>
-                        <a href="single.html">
-                            <img src="../../img/ff/21.jpeg" alt="Sample Article">
-                        </a>
-                    </figure>
-                    <div class="padding">
-                        <div class="detail">
-                            <div class="time">December 26, 2016</div>
-                            <div class="category"><a href="category.html">Travel</a></div>
-                        </div>
-                        <h2><a href="single.html">Donec consequat arcu at ultrices sodales</a></h2>
-                        <p>Proin venenatis pellentesque arcu, ut mattis nulla placerat et.</p>
-                    </div>
-                </div>
-            </article>
         </div>
-    </div>
-
-</section>
-
-
-<!-- JS -->
-
-
-<script src="../../js/APP_JS/jquery.js"></script>
-<script src="../../js/APP_JS/jquery.migrate.js"></script>
-<script src="../../scripts/bootstrap/bootstrap.min.js"></script>
-<script>var $target_end=$(".best-of-the-week");</script>
-<script src="../../scripts/jquery-number/jquery.number.min.js"></script>
-<script src="../../scripts/owlcarousel/dist/owl.carousel.min.js"></script>
-<script src="../../scripts/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-<script src="../../scripts/eas escroll/jquery.easeScroll.js"></script>
-<script src="../../scripts/sweetalert/dist/sweetalert.min.js"></script>
-<script src="../../scripts/toast/jquery.toast.min.js"></script>
-
-<script src="../../js/APP_JS/e-magz.js"></script>
-
+        </div>
+        </div>
+    </section>
 </body>
-
 </html>

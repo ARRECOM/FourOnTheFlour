@@ -2,7 +2,6 @@
 <html>
 <head>
 
-
     <?php include ".idea/Raizcss.php"; ?>
     <script src="validar.js"></script>
 
@@ -48,46 +47,42 @@
         <div class="box-wrapper">
             <div class=" box-border">
                 <div class="box-body">
+                    <br>
                     <h4>Formulario de Registro</h4>
-                    <form method="POST"  onsubmit="return validar();" >
+                    <form action="insert.php" id="form" method="POST" onsubmit="return validar();" >
 
                         <div class="form-group">
                             <label>Nombre Completos</label>
-                            <input id="Nombre" type="text" class="form-control" name="Nombre">
+                            <input id="Nombre" type="text" class="form-control" name="Nombre" >
 
                         </div>
 
                         <div class="form-group">
                             <label>Correo Electronico</label>
-                            <input id="email" type="email" class="form-control" name="email">
+                            <input id="email" type="email" class="form-control" name="email" >
 
                         </div>
 
                         <div class="form-group">
                             <label>Nombre de Usuario</label>
-                            <input id="username" type="text" class="form-control" name="username">
+                            <input id="username" type="text" class="form-control" name="username" >
 
                         </div>
 
                         <div class="form-group">
                             <label>Edad</label>
-                            <input id="Edad" type="text" class="form-control" name="Edad">
+                            <input id="Edad" type="text" class="form-control" name="Edad" >
 
                         </div>
 
                         <div class="form-group">
                             <label class="fw">Contraseña</label>
-                            <input id="password" type="password" class="form-control" name="password">
+                            <input id="password" type="password" class="form-control" name="password" >
                         </div>
 
-                        <div class="form-group">
-                            <label>Usuario</label>
-                            <input id="tipo" type="text" class="form-control" name="tipo" value="Usuario">
-
-                        </div>
 
                         <div class="form-group text-right">
-                            <button class="btn btn-primary btn-block" id="btnguardar">Registrar</button>
+                            <button class="btn btn-primary btn-block" id="btnguardar" type="submit" >Registrar</button>
                         </div>
 
                     </form>

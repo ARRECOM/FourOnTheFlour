@@ -1,10 +1,10 @@
-<form id="form_subir" action="" method="post">
+<form id="form_subir" action="../subir.php" method="post">
   
     <div class="form-group">
         <label>Hora de inicio</label>
 
         <div >
-            <input class="form-control" type="time"  id="example-time-input" name="HoraInicio"  required autofocus>
+            <input class="form-control" type="time"  id="InicioH" name="InicioH"  required autofocus>
         </div>
     </div>
 
@@ -12,7 +12,7 @@
         <label>Hora de cierre</label>
         <div >
 
-            <input class="form-control" type="time"  id="example-time-input" name="HoraCierre" required autofocus>
+            <input class="form-control" type="time"  id="FinH" name="FinH" required autofocus>
 
         </div>
     </div>
@@ -20,7 +20,7 @@
     <div class="form-group">
         <label>Fecha del evento</label>
         <div >
-            <input class="form-control" type="date"  id="example-text-input" name="FechaEvento"  required autofocus>
+            <input class="form-control" type="date"  id="FechaEvento" name="FechaEvento"  required autofocus>
 
         </div>
     </div>
@@ -29,7 +29,7 @@
         <label>Lugar</label>
 
         <div >
-            <input class="form-control" type="text"  id="example-text-input" name="Lugar" required autofocus>
+            <input class="form-control" type="text"  id="Lugar" name="Lugar" required autofocus>
 
         </div>
     </div>
@@ -39,7 +39,7 @@
         <label>Teléfono del lugar</label>
 
        <div >
-           <input class="form-control"  class="input-medium bfh-phone" data-country="US" type="text"  name="Telefono" >
+           <input class="form-control" id="TelefonoLugar"  class="input-medium bfh-phone" data-country="US" type="text"  name="TelefonoLugar" >
 
        </div>
     </div>

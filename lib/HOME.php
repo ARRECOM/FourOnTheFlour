@@ -1,19 +1,28 @@
 <div class="row">
     <div class="col-md-8 col-sm-12 col-xs-12">
-        <div class="owl-carousel owl-theme slide" id="featured">
+        <div class="owl-carousel owl-theme " id="featured">
             <!-- carga del evento principal -->
             <div class="item">
                 <article class="featured">
                     <div class="overlay"></div>
+                    <?php
+                    while ($Evento = $consulta->fetch_assoc())
+                    {
+                    ?>
+                    ?>
                     <figure>
-                        <img src="img/ff/space.jpg" alt="Sample Article">
+                        <img src= "<?php echo $Evento['Flyer']; ?>" alt="Sample Article">
                     </figure>
-                    <!--<div class="details">
-                      <div class="category"><a href="category.html">Texto</a></div>
-                      <h1><a href="#">Texto</a></h1>
-                      <div class="time">Texto</div>
-                    </div>-->
+
+                    <div class="details">
+                      <div class="category"><a href="category.html"><?php echo $Evento['Lugar']; ?></a></div>
+                      <h1><a href="#"><?php echo $Evento['InicioH']; ?></a></h1>
+                      <div class="time"><?php echo $Evento['FechaEvento']; ?></div>
+                    </div>
                 </article>
+                <?php
+                }
+                ?>
 
             </div>
 

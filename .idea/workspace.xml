@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a2ded-fb7d-4950-b55d-8e10b7c2d035" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/EventoS.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOFNegocio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Raizcss.php" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Raizcss.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/143519f7-c8e8-4b3c-bac5-779e2bc60863.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/143519f7-c8e8-4b3c-bac5-779e2bc60863.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Query/EventoRender.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Usuario/usuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Usuario/usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registrarview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registrarview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_app/Admin/subir.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/subir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/FOF-Negocio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ads.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/preview.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/insert.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/HOME.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/HOME.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validar.js" beforeDir="false" afterPath="$PROJECT_DIR$/validar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +58,7 @@
         <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="fof: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="usuarios: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="eventos: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -64,26 +67,7 @@
     <favorites_list name="FourOnTheFlour" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="validar.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/validar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registrarview.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Registrarview.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1580">
-              <caret line="79" column="47" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -109,30 +93,23 @@
         <option value="$PROJECT_DIR$/Main_app/login.php" />
         <option value="$PROJECT_DIR$/Main_app/conexion.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/sesionSecurity.php" />
-        <option value="$PROJECT_DIR$/Main_app/Admin/subir.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/subirArchivo.js" />
         <option value="$PROJECT_DIR$/lib/BESTWEEK.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/lib/CSS.php" />
-        <option value="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/AltaArtista.php" />
         <option value="$PROJECT_DIR$/lib/Seguridad.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/Componentes/insertjs.php" />
-        <option value="$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/logica/GuardarAdmin.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/AltaAdmin.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/GuardarAdmin.php" />
         <option value="$PROJECT_DIR$/js/APP_JS/e-magz.js" />
-        <option value="$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/Registros.php" />
         <option value="$PROJECT_DIR$/CarpetaEjemplo/index.html" />
         <option value="$PROJECT_DIR$/CarpetaEjemplo/validacion.js" />
         <option value="$PROJECT_DIR$/lib/NAV.PHP" />
         <option value="$PROJECT_DIR$/cn.php" />
-        <option value="$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/admin.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/lib/HOME.php" />
         <option value="$PROJECT_DIR$/Registrarview.html" />
         <option value="$PROJECT_DIR$/InsertSolicitud.php" />
         <option value="$PROJECT_DIR$/FOFNegocio.php" />
@@ -143,6 +120,14 @@
         <option value="$PROJECT_DIR$/Main_app/Usuario/usuario.php" />
         <option value="$PROJECT_DIR$/Registrarview.php" />
         <option value="$PROJECT_DIR$/validar.js" />
+        <option value="$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php" />
+        <option value="$PROJECT_DIR$/Query/EventoRender.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php" />
+        <option value="$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php" />
+        <option value="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" />
+        <option value="$PROJECT_DIR$/lib/HOME.php" />
+        <option value="$PROJECT_DIR$/Main_app/Admin/subir.php" />
       </list>
     </option>
   </component>
@@ -166,10 +151,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-139" />
-    <option name="y" value="-918" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="178" />
+    <option name="y" value="93" />
+    <option name="width" value="814" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -179,23 +164,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FourOnTheFlour" type="cbb8eebc:String" user="FourOnTheFlour" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="FourOnTheFlour" type="b2602c69:ProjectViewProjectNode" />
               <item name="FourOnTheFlour" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="FourOnTheFlour" type="cbb8eebc:String" user="FourOnTheFlour" />
             </path>
           </expand>
           <select />
@@ -212,12 +197,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\FourOnTheFlour" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\FourOnTheFlour\img" />
       <recent name="C:\xampp\htdocs\FourOnTheFlour\Main_app\Admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\FourOnTheFlour" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,12 +287,15 @@
       <workItem from="1529532575669" duration="4016000" />
       <workItem from="1529616197066" duration="20000" />
       <workItem from="1529774006602" duration="133000" />
-      <workItem from="1529781057796" duration="1104000" />
+      <workItem from="1529781057796" duration="4668000" />
+      <workItem from="1529847272747" duration="4416000" />
+      <workItem from="1529851971585" duration="1517000" />
+      <workItem from="1529853742420" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80809000" />
+    <option name="totallyTimeSpent" value="93561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,14 +307,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-247" y="-908" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957699" visible="true" weight="0.16623877" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957699" visible="true" weight="0.17975831" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3316413" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3285151" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.27278563" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.12386707" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -341,8 +328,30 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.32838285" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957699" visible="true" weight="0.14890885" />
+      <window_info id="Structure" order="1" sideWeight="0.50423014" side_tool="true" weight="0.1570997" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3316413" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.10526316" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3285151" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" sideWeight="0.50165015" side_tool="true" weight="0.17598188" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -359,100 +368,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/AltaArtista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="153" column="48" selection-start-line="153" selection-start-column="48" selection-end-line="153" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/subirArchivo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Componentes/insertjs.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Componentes/insertcss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CSS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" lean-forward="true" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/JS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/APP_JS/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/APP_JS/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="354" lean-forward="true" selection-start-column="354" selection-end-column="354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/APP_JS/e-magz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Seguridad.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/BESTWEEK.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="118" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Registros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8400">
-          <caret line="420" column="16" selection-start-line="420" selection-start-column="16" selection-end-line="421" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CarpetaEjemplo/validacion.js" />
     <entry file="file://$PROJECT_DIR$/CarpetaEjemplo/index.html" />
     <entry file="file://$PROJECT_DIR$/lib/NAV.PHP">
       <provider selected="true" editor-type-id="text-editor">
@@ -489,27 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/subir.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="62" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/AdminJS/plugins/flot/jquery.flot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -538,40 +432,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HOME.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/data1/img1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/data1/img4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/data1/img3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://143519f7-c8e8-4b3c-bac5-779e2bc60863/schema/fof/table/eventos">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -596,31 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventoS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main_app/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="157" column="17" lean-forward="true" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="137" column="33" lean-forward="true" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -652,17 +501,165 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/validar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventoS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="137" column="33" lean-forward="true" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Query/EventoRender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Registrarview.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
+        <state relative-caret-position="640">
           <caret line="79" column="47" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validar.js">
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Registros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="193" column="35" selection-start-line="193" selection-start-column="35" selection-end-line="194" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/data1/img1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/news/img04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/archivos" />
+    <entry file="file://$PROJECT_DIR$/img/ff/IMG FF/flyer/15037148_696931120475993_7578729781619126408_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ff/IMG FF/flyer/14656301_675881429247629_1905628227456006640_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ff/IMG FF/flyer/12472609_582311908604582_1657482737136616707_n.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ff/IMG FF/flyer/11760277_489333024569138_6772800816360753780_n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="39" lean-forward="true" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="551" column="27" selection-start-line="551" selection-start-column="26" selection-end-line="551" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ProyectoFinal/ProyectoFinal/Main_app/Admin/subir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/subirArchivo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/img/4493314-hd-wallpapers-1080p.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/HOME.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="241" column="68" selection-start-line="241" selection-start-column="61" selection-end-line="241" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main_app/Admin/subir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>

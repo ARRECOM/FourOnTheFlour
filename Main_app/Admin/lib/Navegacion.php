@@ -10,7 +10,7 @@
                 <a href="AltaAdmin">Administrador</a>
             </li>
             <li class="active">
-                <a href="{{ url('admin/RegistrarEvento') }}">Evento Proximo</a>
+                <a href="AgregarEvento">Evento Proximo</a>
             </li>
 
             <li class="active">

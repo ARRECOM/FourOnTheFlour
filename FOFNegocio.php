@@ -205,10 +205,7 @@
                             <textarea class="form-control" rows="3" id="AntecedenteE" name="AntecedenteE"></textarea>
                         </div>
 
-                        <div class="form-group">
-                            <label>Hora de inicio</label>
-                            <input class="form-control" type="time" value="21:00:00" id="InicioH" name="InicioH">
-                        </div>
+
 
                         <div class="form-group">
                             <label>Fecha tentava del evento</label>
@@ -241,18 +238,6 @@
                             </div>
 
 
-                        </div>
-
-
-
-                        <div class="form-group">
-                            <label>Horario de contacto inicio</label>
-                            <input class="form-control" type="time" value="07:00:00" id="HorarioApartir" name="HorarioApartir">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Horario de contacto final</label>
-                            <input class="form-control" type="time" value="03:00:00" id="HorarioHasta" name="HorarioHasta">
                         </div>
 
 

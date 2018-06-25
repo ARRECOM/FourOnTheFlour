@@ -238,11 +238,23 @@
                                 </div>
 
                                 <div class="form-group">
+                                    <label>Estado</label>
+                                    <select class="form-control input-sm" name="Estado" id="Estado">
+                                        <option value="Principal">Principal</option>
+                                        <option value="Pasado">Pasado</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group ">
                                     <label>Flyer del evento</label>
                                     <input type="file" name="archivo">
                                     <small class="form-text text-muted" id="fileHelp">Seleccione el flyer del evento para mostrar en la página principal.</small>
 
                                 </div>
+
+                                <br>
+
 
                                 <div class="barra">
                                     <div class="barra_azul" id="barra_estado">
@@ -250,6 +262,7 @@
                                     </div>
 
                                 </div>
+                                <br>
                                 <div class="acciones">
                                     <button type="submit" class="btn btn-primary" value="Enviar">Guardar</button>
                                     <button type="reset" class="btn btn-default cancelar" value="cancelar" id="cancelar" >Cancelar</button>

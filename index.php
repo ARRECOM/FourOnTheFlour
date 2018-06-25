@@ -1,6 +1,7 @@
 <?php
 include_once('Query/EventoRender.php');
 $consulta = PrincipalNews();
+$Pasados = EventosPasados();
 
 ?>
 <!DOCTYPE html>

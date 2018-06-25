@@ -15,7 +15,7 @@
         <div class="col-md-8 col-sm-12 text-left">
             <ul class="nav-icons">
                 <li><a href="#">¿Quiénes somos?</a></li>
-                <li><a href="#">Artistas</a></li>
+                <li><a href="">Artistas</a></li>
                 <li><a href="Registrarview">Registrar</a></li>
                 <li><a href="login">Iniciar Sesión</a></li>
 

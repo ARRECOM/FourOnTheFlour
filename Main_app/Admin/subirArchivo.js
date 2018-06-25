@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function subir_archivos(form) {
-    let barra_estado = form.children[6].children[0],
+    let barra_estado = form.children[8].children[0],
         span = barra_estado.children[0],
         boton_cancelar = form.children[7].children[1];
 
@@ -36,15 +36,32 @@ function subir_archivos(form) {
 
     });
 
+    var Estado;
+
+    Estado = document.getElementById("Estado").value;
     peticion.open('post', 'subir.php')
 
     peticion.send(new FormData(form));
+
+
+
+    if (Estado === "Principal") {
+
+        barra_estado.classList.remove('barra_verde');
+        barra_estado.classList.add('barra_roja');
+        span.innerHTML = "proceso Cancelado";
+
+        alert("Lo sentimos, No podemos completar la operación");
+
+    }
+
+
 
     boton_cancelar.addEventListener("click", () => {
         peticion.abort();
         barra_estado.classList.remove('barra_verde');
         barra_estado.classList.add('barra_roja');
-        apan.innerHTML = "Proceso Cancelado";
+        span.innerHTML = "Proceso Cancelado";
     });
 
 }

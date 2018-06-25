@@ -15,6 +15,12 @@ $consulta = "";
 
 function PrincipalNews(){
     global $mysqli, $consulta;
-    $sql = 'SELECT * FROM eventos';
+    $sql = 'SELECT * FROM eventos WHERE Estado = "Principal"';
     return $mysqli->query($sql);
+}
+
+function EventosPasados(){
+    global $mysqli, $consulta;
+    $sqlEP = 'SELECT * FROM eventos WHERE Estado = "Pasado" ';
+    return $mysqli->query($sqlEP);
 }

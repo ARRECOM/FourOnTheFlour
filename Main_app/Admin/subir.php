@@ -20,26 +20,23 @@ $FinH = $_POST["FinH"];
 $FechaEvento = $_POST["FechaEvento"];
 $Lugar = $_POST["Lugar"];
 $TelefonoLugar = $_POST["TelefonoLugar"];
+$Estado = $_POST["Estado"];
+
+$insertar = "INSERT INTO eventos(InicioH,FinH,FechaEvento,Lugar,TelefonoLugar,Flyer,Estado)
+              VALUES ('$InicioH','$FinH','$FechaEvento','$Lugar','$TelefonoLugar','$Flyer','$Estado')";
 
 
-$insertar = "INSERT INTO eventos(InicioH,FinH,FechaEvento,Lugar,TelefonoLugar,Flyer)
-              VALUES ('$InicioH','$FinH','$FechaEvento','$Lugar','$TelefonoLugar','$Flyer')";
+if ($Estado === "Principal"){
+    $verificar_Evento = mysqli_query($conexion, "SELECT * FROM eventos WHERE Estado = '$Estado '");
+    if (mysqli_num_rows($verificar_Evento) > 0) {
 
+        exit;
+    }
+}
 
 $resultado = mysqli_query($conexion, $insertar);
 
-if (!$resultado) {
-    echo 'Error al registrar';
 
-} else {
-    echo
-    '<script>
-            alert("Registro Exitoso");
-       
-          </script>';
-
-
-}
-mysqli_close($conexion);
+mysqli_close($conexion);s
 
 ?>

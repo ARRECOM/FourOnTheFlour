@@ -175,77 +175,78 @@
 
 
             </div>
-            <div class="row">
+            <div class="">
                 <div class="col-lg-6">
 
-                    <form action="EventoS.php" role="form" method="POST" >
-                        <h4>Formulario de Registro de solicitud</h4>
-                        <div class="form-group">
-                            <label>Nombre de la empresa</label>
-                            <input class="form-control" type="text" value="" id="EmpresaN" name="EmpresaN">
+                    <h4>Formulario de Registro de solicitud</h4>
+                        <div>
+                            <form action="EventoS.php" role="form" method="POST">
+                                <div class="form-group">
+                                    <label>Nombre de la empresa</label>
+                                    <input class="form-control" type="text"  id="EmpresaN" name="EmpresaN">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Giro de la empresa</label>
+                                    <input class="form-control" type="text"  id="Giro" name="Giro">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Capacidad de personas</label>
+                                    <input class="form-control" type="text" id="Capacidad" name="Capacidad">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Sistema de audio</label>
+                                    <input class="form-control" type="text" id="SysAudio" name="SysAudio">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Otros eventos realizados por el solicitante</label>
+                                    <textarea class="form-control" rows="3" id="AntecedenteE" name="AntecedenteE"></textarea>
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <label>Fecha tentava del evento</label>
+                                    <input class="form-control" type="date" value="2018-01-01" id="FechaTen" name="FechaTen">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Teléfono de contacto 1</label>
+                                    <input class="form-control" type="text" class="input-medium bfh-phone"  id="Telefono1" name="Telefono1">
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Teléfono de contacto 2</label>
+                                    <input class="form-control" type="text" class="input-medium bfh-phone"  id="Telefono2" name="Telefono2">
+
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="mr-sm-2" for="inlineFormCustomSelect">Genero</label>
+                                    <div class="form-group">
+                                        <select class="form-control" id="Genero" name="Genero">
+                                            <option selected>House</option>
+                                            <option value="1">Tech House</option>
+                                            <option value="2">Techno</option>
+                                            <option value="3">Funky</option>
+                                            <option value="4">Retro</option>
+                                        </select>
+                                    </div>
+
+
+                                </div>
+
+
+                                <button type="submit" class="btn btn-lg btn-primary">Guardar</button>
+                                <button type="reset" class="btn btn-lg btn-success">Limpiar campos</button>
+                            </form>
                         </div>
 
-                        <div class="form-group">
-                            <label>Giro de la empresa</label>
-                            <input class="form-control" type="text" value="" id="Giro" name="Giro">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Capacidad de personas</label>
-                            <input class="form-control" type="text" value="" id="Capacidad" name="Capacidad">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Sistema de audio</label>
-                            <input class="form-control" type="text" value="" id="SysAudio" name="SysAudio">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Otros eventos realizados por el solicitante</label>
-                            <textarea class="form-control" rows="3" id="AntecedenteE" name="AntecedenteE"></textarea>
-                        </div>
-
-
-
-                        <div class="form-group">
-                            <label>Fecha tentava del evento</label>
-                            <input class="form-control" type="date" value="2018-01-01" id="FechaTen" name="FechaTen">
-                        </div>
-
-                        <div class="form-group">
-                            <label>Teléfono de contacto 1</label>
-                            <input class="form-control" type="text" class="input-medium bfh-phone" data-country="US" id="Telefono1" name="Telefono1">
-
-                        </div>
-
-                        <div class="form-group">
-                            <label>Teléfono de contacto 2</label>
-                            <input class="form-control" type="text" class="input-medium bfh-phone" data-country="US" id="Telefono2" name="Telefono2">
-
-                        </div>
-
-
-                        <div class="form-group">
-                            <label class="mr-sm-2" for="inlineFormCustomSelect">Genero</label>
-                            <div class="form-group">
-                                <select class="form-control" id="Genero" name="Genero">
-                                    <option selected>House</option>
-                                    <option value="1">Tech House</option>
-                                    <option value="2">Techno</option>
-                                    <option value="3">Funky</option>
-                                    <option value="4">Retro</option>
-                                </select>
-                            </div>
-
-
-                        </div>
-
-
-
-                        <button type="submit" class="btn btn-lg btn-primary">Guardar</button>
-                        <button type="reset" class="btn btn-lg btn-success">Limpiar campos</button>
-
-                    </form>
                 </div>
             </div>
         </div>

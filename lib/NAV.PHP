@@ -16,7 +16,7 @@
             <ul class="nav-icons">
                 <li><a href="#">¿Quiénes somos?</a></li>
                 <li><a href="">Artistas</a></li>
-                <li><a href="Registrarview">Registrar</a></li>
+                <li><a href="Registra">Registrar</a></li>
                 <li><a href="login">Iniciar Sesión</a></li>
 
             </ul>

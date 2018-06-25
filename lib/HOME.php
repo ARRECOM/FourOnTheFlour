@@ -98,7 +98,7 @@
                         </div>
 
                     </div>
-                    <a href="FOFNegocio" class="btn btn-lg btn-primary">Más info.</a>
+                    <a href="Contrata" class="btn btn-lg btn-primary">Más info.</a>
 
                 </div>
                 <br>

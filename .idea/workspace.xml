@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9a2ded-fb7d-4950-b55d-8e10b7c2d035" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/General-Data_Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/143519f7-c8e8-4b3c-bac5-779e2bc60863.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/143519f7-c8e8-4b3c-bac5-779e2bc60863.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contrata.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventoS.php" beforeDir="false" afterPath="$PROJECT_DIR$/EventoS.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FOFNegocio.php" beforeDir="false" afterPath="$PROJECT_DIR$/FOFNegocio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/AgregarEvento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/subir.php" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/subir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main_app/Admin/subirArchivo.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main_app/Admin/subirArchivo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Query/EventoRender.php" beforeDir="false" afterPath="$PROJECT_DIR$/Query/EventoRender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spinner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/sponsored.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/skins/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/skins/blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/skins/blue.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/HOME.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/HOME.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/NAV.PHP" beforeDir="false" afterPath="$PROJECT_DIR$/lib/NAV.PHP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validar.js" beforeDir="false" afterPath="$PROJECT_DIR$/validar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,6 +36,24 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fof: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fof@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fof: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="solicitudes: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -48,11 +62,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FOFNegocio.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FOFNegocio.php">
+      <file leaf-file-name="HOME.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/HOME.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+            <state relative-caret-position="1440">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajuste.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/ajuste.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blue.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/skins/blue.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2014">
+              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/skins/all.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="443" column="19" lean-forward="true" selection-start-line="443" selection-start-column="19" selection-end-line="443" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -62,6 +108,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.idea</find>
+      <find>.skin-blue .featured</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/validar_usuario.js" />
         <option value="$PROJECT_DIR$/lib/JS.php" />
         <option value="$PROJECT_DIR$/lib/CSS.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
@@ -103,8 +149,6 @@
         <option value="$PROJECT_DIR$/.idea/Raizcss.php" />
         <option value="$USER_HOME$/Desktop/ffuser.php" />
         <option value="$PROJECT_DIR$/Main_app/Usuario/usuario.php" />
-        <option value="$PROJECT_DIR$/Registrarview.php" />
-        <option value="$PROJECT_DIR$/validar.js" />
         <option value="$PROJECT_DIR$/Main_app/Admin/lib/Consultas.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/lib/Navegacion.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/Plantillas/NuevoEvento.php" />
@@ -115,10 +159,16 @@
         <option value="$PROJECT_DIR$/Main_app/Admin/subir.php" />
         <option value="$PROJECT_DIR$/Main_app/Admin/subirArchivo.js" />
         <option value="$PROJECT_DIR$/General-Data_Event.php" />
+        <option value="$PROJECT_DIR$/validar.js" />
+        <option value="$PROJECT_DIR$/EventoS.php" />
+        <option value="$PROJECT_DIR$/Registrarview.php" />
+        <option value="$PROJECT_DIR$/FOFNegocio.php" />
         <option value="$PROJECT_DIR$/lib/NAV.PHP" />
         <option value="$PROJECT_DIR$/lib/HOME.php" />
-        <option value="$PROJECT_DIR$/FOFNegocio.php" />
-        <option value="$PROJECT_DIR$/EventoS.php" />
+        <option value="$PROJECT_DIR$/Contrata.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/skins/blue.css" />
+        <option value="$PROJECT_DIR$/css/skins/all.css" />
       </list>
     </option>
   </component>
@@ -142,10 +192,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -155,23 +204,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="FourOnTheFlour" type="cbb8eebc:String" user="FourOnTheFlour" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="FourOnTheFlour" type="b2602c69:ProjectViewProjectNode" />
               <item name="FourOnTheFlour" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourOnTheFlour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FourOnTheFlour" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourOnTheFlour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FourOnTheFlour" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="skins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FourOnTheFlour" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FourOnTheFlour" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="FourOnTheFlour" type="cbb8eebc:String" user="FourOnTheFlour" />
             </path>
           </expand>
           <select />
@@ -285,11 +350,13 @@
       <workItem from="1529865819942" duration="1274000" />
       <workItem from="1529867406675" duration="9697000" />
       <workItem from="1529933055342" duration="5300000" />
+      <workItem from="1529952970375" duration="2683000" />
+      <workItem from="1529956190260" duration="340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109832000" />
+    <option name="totallyTimeSpent" value="112855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,13 +368,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-247" y="-908" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957699" weight="0.18613607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957699" visible="true" weight="0.27039275" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3316413" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3285151" />
-      <window_info anchor="right" id="Database" order="3" weight="0.16302952" />
+      <window_info anchor="right" id="Database" order="3" weight="0.244713" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -327,20 +395,20 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957699" visible="true" weight="0.18613607" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957699" visible="true" weight="0.18466353" />
       <window_info id="Structure" order="1" sideWeight="0.50423014" side_tool="true" weight="0.1570997" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3316413" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" weight="0.16302952" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3285151" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.32838285" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,37 +430,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/AdminJS/plugins/flot/jquery.flot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="1545" column="14" lean-forward="true" selection-start-line="1545" selection-start-column="14" selection-end-line="1545" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="93" column="34" lean-forward="true" selection-start-line="93" selection-start-column="34" selection-end-line="93" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_app/Admin/Componentes/nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="32" lean-forward="true" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/data1/img4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/data1/img3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/FourOnTheFlour.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ffuser.php" />
     <entry file="das://143519f7-c8e8-4b3c-bac5-779e2bc60863/schema/fof/table/usuarios">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -551,27 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Registrarview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/barra.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
@@ -614,27 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HOME.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/NAV.PHP">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Query/EventoRender.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -645,13 +640,96 @@
     <entry file="file://$PROJECT_DIR$/Query/insert.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventoS.php">
+    <entry file="file://$PROJECT_DIR$/validar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/chartjs-old/Chart.min.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registrarview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventoS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/NAV.PHP">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contrata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FOFNegocio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        <state relative-caret-position="320">
+          <caret line="180" column="16" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/HOME.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ajuste.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/variable.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/skins/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2014">
+          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/skins/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="443" column="19" lean-forward="true" selection-start-line="443" selection-start-column="19" selection-end-line="443" selection-end-column="19" />
         </state>
       </provider>
     </entry>
